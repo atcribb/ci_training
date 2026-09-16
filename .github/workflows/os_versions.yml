@@ -13,7 +13,7 @@ on:
 jobs:
   build:
 
-    runs-on: [ubuntu-latest, windows-latest, macos-latest, macos-15-intel]
+    runs-on: [ubuntu-latest, windows-latest, macos-latest]
     strategy:
       fail-fast: false
       matrix:
